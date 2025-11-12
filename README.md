@@ -174,7 +174,6 @@ This configuration lets the extension pick the two best GPUs, splits work evenly
 
 ## Tips & Debugging
 
-* **Run this node after generation:** Let ComfyUI offload or idle SD/SDXL models where possible to free VRAM.
 * **If you encounter OOM:**
     * Lower `tile_size` (e.g. to `256`).
     * Optionally increase `min_tile_size` to reduce retries.
