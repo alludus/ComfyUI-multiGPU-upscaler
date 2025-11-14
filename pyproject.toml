@@ -15,4 +15,4 @@ Repository = "https://github.com/alludus/ComfyUI-multiGPU-upscaler"
 [tool.comfy]
 PublisherId = "alludus" # TODO (fill in Publisher ID from Comfy Registry Website).
 DisplayName = "multiGPU Upscaler" # Display name for the Custom Node. Can be changed later.
-Icon = "logo.svg" # Relative path to your logo file in the root
+Icon = "https://raw.githubusercontent.com/alludus/ComfyUI-multiGPU-upscaler/main/logo.svg" # Absolute URL to the raw logo file in the root
