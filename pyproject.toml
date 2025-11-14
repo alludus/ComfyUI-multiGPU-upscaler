@@ -1,0 +1,18 @@
+# pyproject.toml
+[project]
+name = "ComfyUI-multiGPU-upscaler" # Unique identifier for your node. Immutable after creation.
+description = "multiGPU batch-parallel upscaling nodes for ComfyUI." # From your README.md
+version = "1.0.0" # Custom Node version. Must be semantically versioned.
+license = { file = "LICENSE" } # Updated to match your 'LICENSE' file (no extension)
+dependencies  = [
+    "spandrel",
+    "typing-extensions"
+] # Inferred from imports in multiGPU_upscaler.py
+
+[project.urls]
+Repository = "https://github.com/alludus/ComfyUI-multiGPU-upscaler"
+
+[tool.comfy]
+PublisherId = "alludus" # TODO (fill in Publisher ID from Comfy Registry Website).
+DisplayName = "multiGPU Upscaler" # Display name for the Custom Node. Can be changed later.
+Icon = "logo.svg" # Relative path to your logo file in the root
