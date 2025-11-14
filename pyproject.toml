@@ -2,7 +2,7 @@
 [project]
 name = "ComfyUI-multiGPU-upscaler" # Unique identifier for your node. Immutable after creation.
 description = "multiGPU batch-parallel upscaling nodes for ComfyUI." # From your README.md
-version = "1.0.0" # Custom Node version. Must be semantically versioned.
+version = "1.0.1" # Custom Node version. Must be semantically versioned.
 license = { file = "LICENSE" } # Updated to match your 'LICENSE' file (no extension)
 dependencies  = [
     "spandrel",
