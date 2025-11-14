@@ -1,0 +1,70 @@
+<svg 
+  width="800" 
+  height="400" 
+  viewBox="0 0 800 400" 
+  xmlns="http://www.w3.org/2000/svg" 
+  font-family="Arial, sans-serif"
+  fill="#e2e8f0"
+>
+  <title>Dual GPU Pixel Building Logo - Dark Theme</title>
+  
+  <defs>
+    <style>
+      .gpu-case { fill: #2d3748; stroke: #a0aec0; stroke-width: 4; rx: 10; }
+      .gpu-fan { fill: #1a202c; stroke: #4a5568; stroke-width: 1; }
+      .plus-sign {
+        font-size: 80px;
+        font-weight: bold;
+        fill: #718096;
+        text-anchor: middle;
+        dominant-baseline: central;
+      }
+      .pixel-bg { fill: #1a202c; }
+      .pixel-built { fill: #63b3ed; }
+      .pixel-building { fill: #a3d9f1; opacity: 0.7; }
+    </style>
+    
+    <g id="gpu">
+      <rect class="gpu-case" width="180" height="70" />
+      <circle class="gpu-fan" cx="45" cy="35" r="25" />
+      <circle class="gpu-fan" cx="135" cy="35" r="25" />
+    </g>
+  </defs>
+
+  <g id="left-side" transform="translate(50, 95)">
+    <use href="#gpu" x="0" y="0" />
+    <text class="plus-sign" x="90" y="110">+</text>
+    <use href="#gpu" x="0" y="140" />
+  </g>
+  
+  <text class="plus-sign" x="335" y="200" style="font-size: 90px;">=</text>
+
+  <g id="right-side" transform="translate(420, 100)">
+    <rect width="300" height="200" fill="#2d3748" stroke="#4a5568" rx="5" />
+    <g id="pixel-matrix" transform="translate(40, 20)">
+      <rect class="pixel-bg" width="220" height="160" />
+      
+      <!-- Row 1 -->
+      <rect class="pixel-built" x="0" y="0" width="20" height="20" />
+      <rect class="pixel-built" x="22" y="0" width="20" height="20" />
+      <rect class="pixel-built" x="44" y="0" width="20" height="20" />
+      <rect class="pixel-built" x="66" y="0" width="20" height="20" />
+      
+      <!-- Row 2 -->
+      <rect class="pixel-built" x="0" y="22" width="20" height="20" />
+      <rect class="pixel-built" x="22" y="22" width="20" height="20" />
+      <rect class="pixel-built" x="44" y="22" width="20" height="20" />
+      <rect class="pixel-built" x="66" y="22" width="20" height="20" />
+
+      <!-- Row 3 -->
+      <rect class="pixel-built" x="0" y="44" width="20" height="20" />
+      <rect class="pixel-built" x="22" y="44" width="20" height="20" />
+      <rect class="pixel-built" x="44" y="44" width="20" height="20" />
+      
+      <!-- Row 4 - building -->
+      <rect class="pixel-built" x="0" y="66" width="20" height="20" />
+      <rect class="pixel-built" x="22" y="66" width="20" height="20" />
+      <rect class="pixel-building" x="44" y="66" width="20" height="20" />
+    </g>
+  </g>
+</svg>
